@@ -1,0 +1,23 @@
+<!--
+## Variables
+
+- `fieldName`:   Alias/name of the field
+- `fieldLabel`:  Label for the field
+- `optionLabel`: Option label/value for a sample option
+
+-->
+<div class="umbraco-forms-field <!-- $fieldName? --> dropdown">
+	<label for="12345678-GUID-3456-GUID-abcdefghijkl" class="umbraco-forms-label">
+		<!-- $fieldLabel? --> 
+	</label>
+	<div class="umbraco-forms-field-wrapper">
+		<select class="form-control" name="12345678-GUID-3456-GUID-abcdefghijkl" id="12345678-GUID-3456-GUID-abcdefghijkl">
+			<option value=""></option>
+			<option value="<!-- $optionLabel? -->"><!-- $optionLabel? --></option>
+			<!-- <option value=""></option> -->
+			<!-- <option value=""></option> -->
+			<!-- <option value=""></option> -->
+		</select>
+		<span class="field-validation-valid" data-valmsg-for="12345678-GUID-3456-GUID-abcdefghijkl" data-valmsg-replace="true"></span>
+	</div>
+</div>

@@ -1,0 +1,20 @@
+<!--
+## Variables
+
+- `fieldName`:    Name/alias of the field
+- `fieldLabel`:   Label for the field
+- `errorMessage`: The displayed error message
+
+-->
+<div class="umbraco-forms-field <!-- $fieldName? --> shortanswer mandatory">
+	<label for="1bd82592-82b0-4ce7-eefd-e8358c65f6a0" class="umbraco-forms-label">
+		<!-- $fieldLabel? -->
+		<!-- @include "required-indicator" -->
+	</label>
+	<div class="umbraco-forms-field-wrapper">
+		<input type="text" name="1bd82592-82b0-4ce7-eefd-e8358c65f6a0" id="1bd82592-82b0-4ce7-eefd-e8358c65f6a0" class="text input-validation-error" value="" maxlength="500" data-val="true" data-val-required="<!-- $errorMessage? -->" aria-required="true" aria-describedby="1bd82592-82b0-4ce7-eefd-e8358c65f6a0-error" aria-invalid="true">
+		<span class="field-validation-error" data-valmsg-for="1bd82592-82b0-4ce7-eefd-e8358c65f6a0" data-valmsg-replace="true">
+			<span id="1bd82592-82b0-4ce7-eefd-e8358c65f6a0-error" class=""><!-- $errorMessage? --></span>
+		</span>
+	</div>
+</div>
